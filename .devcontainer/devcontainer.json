@@ -1,0 +1,21 @@
+{
+	"name": "Text Generation Examples",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"context": ".."
+	},
+	"settings": {
+		"python.defaultInterpreterPath": "/usr/local/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true
+	},
+	"extensions": [
+		"ms-python.python",
+		"ms-python.vscode-pylance",
+		"eamodio.gitlens"
+	],
+	"runArgs": [
+		"--gpus",
+		"all"
+	]
+}
