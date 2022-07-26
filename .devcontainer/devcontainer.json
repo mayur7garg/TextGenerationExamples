@@ -4,6 +4,7 @@
 		"dockerfile": "Dockerfile",
 		"context": ".."
 	},
+	"forwardPorts": [6006],
 	"settings": {
 		"python.defaultInterpreterPath": "/usr/local/bin/python",
 		"python.linting.enabled": true,
